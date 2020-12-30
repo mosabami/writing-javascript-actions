@@ -12,4 +12,8 @@ jobs:
 
     - name: hello-action
       uses: ./.github/actions/hello-world
+      with:
+        first-greeting: Ayo
+        second-greeting: Maha
+        third-greeting: Farida
 
